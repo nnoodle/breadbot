@@ -1,0 +1,50 @@
+{
+  "name": "breadbot",
+  "version": "0.7.6",
+  "description": "🍞",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-deprecation index.js",
+    "lint": "eslint -c .eslintrc .",
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "^16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnoodle/breadbot.git"
+  },
+  "keywords": [
+    "bread",
+    "bot",
+    "discord"
+  ],
+  "author": "nnoodle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nnoodle/breadbot/issues"
+  },
+  "homepage": "https://github.com/nnoodle/breadbot#readme",
+  "peerDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "async-mutex": "^0.3.1",
+    "better-sqlite-pool": "github:nnoodle/better-sqlite-pool#patch-1",
+    "cowsay": "^1.4.0",
+    "discord.js": "^13.4.0",
+    "elasticlunr": "^0.9.5",
+    "enmap": "^5.8.0",
+    "mathjs": "^9.3.2",
+    "node-fetch": "^2.6.1",
+    "text-table": "^0.2.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "erlpack": "^0.1.3",
+    "libsodium-wrappers": "^0.7.5",
+    "utf-8-validate": "^5.0.4",
+    "zlib-sync": "^0.1.7"
+  }
+}
